@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.31911.260
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StorageQueue.Sender", "StorageQueue.Sender\StorageQueue.Sender.csproj", "{66B2FEA6-F298-4FED-9D5D-00FAC8E98E7C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StorageQueue.Receiver", "StorageQueue.Receiver\StorageQueue.Receiver.csproj", "{A73C2E01-3ACE-4BBB-BFE7-548410B2C022}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{66B2FEA6-F298-4FED-9D5D-00FAC8E98E7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66B2FEA6-F298-4FED-9D5D-00FAC8E98E7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66B2FEA6-F298-4FED-9D5D-00FAC8E98E7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66B2FEA6-F298-4FED-9D5D-00FAC8E98E7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A73C2E01-3ACE-4BBB-BFE7-548410B2C022}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A73C2E01-3ACE-4BBB-BFE7-548410B2C022}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A73C2E01-3ACE-4BBB-BFE7-548410B2C022}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A73C2E01-3ACE-4BBB-BFE7-548410B2C022}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {002AEEF2-367D-4C9E-B9EF-4E21AD739F77}
+	EndGlobalSection
+EndGlobal
