@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HalloEF.Data", "HalloEF.Dat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HalloEF.WinForms", "HalloEF.WinForms\HalloEF.WinForms.csproj", "{93AED6BA-3E3E-42FC-998C-28CBA648D9E2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HalloEF.API", "HalloEF.API\HalloEF.API.csproj", "{888D68CB-B1EE-47B3-9528-FA7D47E84F54}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HalloEF.FullAPI", "HalloEF.FullAPI\HalloEF.FullAPI.csproj", "{CBF45C9C-AC9A-4325-AFC9-F098A066DFF5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{93AED6BA-3E3E-42FC-998C-28CBA648D9E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{93AED6BA-3E3E-42FC-998C-28CBA648D9E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{93AED6BA-3E3E-42FC-998C-28CBA648D9E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{888D68CB-B1EE-47B3-9528-FA7D47E84F54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{888D68CB-B1EE-47B3-9528-FA7D47E84F54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{888D68CB-B1EE-47B3-9528-FA7D47E84F54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{888D68CB-B1EE-47B3-9528-FA7D47E84F54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBF45C9C-AC9A-4325-AFC9-F098A066DFF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBF45C9C-AC9A-4325-AFC9-F098A066DFF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBF45C9C-AC9A-4325-AFC9-F098A066DFF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBF45C9C-AC9A-4325-AFC9-F098A066DFF5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
