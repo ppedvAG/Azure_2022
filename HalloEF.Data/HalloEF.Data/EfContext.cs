@@ -18,7 +18,6 @@ namespace HalloEF.Data
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             //optionsBuilder.UseLazyLoadingProxies().UseSqlServer("Server=(localdb)\\mssqllocaldb;Database=Personen_Dev;Trusted_Connection=true");
-            optionsBuilder.UseLazyLoadingProxies().UseSqlServer("Server=tcp:mydbserver10000.database.windows.net,1433;Initial Catalog=hallodb;Persist Security Info=False;User ID=Fred;Password=nJhHG$@r=L&54hz#;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;");
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
